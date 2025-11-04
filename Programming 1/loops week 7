@@ -1,0 +1,6 @@
+total = 0.0
+x = int(input("Enter the total number of items"))
+for i in range(1,x+1,1):
+    price  = float(input("Enter the price of item "+str(i)+": " ))
+    total += price;
+print("The total price of all items is:", total)

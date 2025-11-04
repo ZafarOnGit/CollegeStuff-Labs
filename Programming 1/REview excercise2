@@ -1,0 +1,23 @@
+# Here cost is the input variable of the cost of the item
+cost = int(input("enter the cost of your item"))
+if (cost < 1000):
+# If cost is less than 1000, no discount is applied
+    print("No discount")
+    discount = 0;
+elif (cost <= 2000):
+# If cost is more than 1000,  discount of 5 percent is applied
+    print("5 percent discount")
+    discount = 0.05;
+elif (cost > 2000):
+# If cost is more than 2000,  discount of 10 percent is applied
+    print("10 percent discount")
+    discount = 0.10;
+
+finalcost = cost - discount*cost
+print(f"Your final cost is {finalcost}")
+
+
+"""
+get cost of item from user
+
+"""

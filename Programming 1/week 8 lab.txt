@@ -1,0 +1,6 @@
+score = 0.0
+while True:
+    input = float(input("enter your score: "))
+
+total = weight + fee;
+print("Your total fee is", total)

@@ -1,0 +1,19 @@
+print("Please select a menu ");
+print("A - Sandwich");
+print("B. Salad");
+print("C. Pizza");
+print("D. Burger");
+
+choice = (input("Enter the menu of your choice: "));
+
+match (choice).lower():
+    case "a": 
+        print("You have selected SANDWICH");
+    case "b": 
+        print("You have selected SALAD");
+    case "c": 
+        print("You have selected PIZZA");
+    case "d": 
+        print("You have selected Burger");
+    case _:
+        print("PLEASE ENTER A VALID CHOICE")

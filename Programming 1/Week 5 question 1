@@ -1,0 +1,29 @@
+dist = float(input("Enter the distance in KM: "));
+if dist >= 40 or dist < 0:
+    print("Invalid distance entered")
+    
+else:
+    if dist < 5:
+        price = "FREE"
+    elif dist >= 5:
+        price = 15;
+    elif dist >= 20:
+        price = 25;
+
+    print(f"The delivery fee is {price}")
+
+'''Teacher's method:
+
+dist = float(input("Enter the distance in KM: "));
+if (dist <5):
+    deliverycharge = 0;
+    print("Delivery charge is: ", delivery charge)
+elif (distance>=5 and distance<=20):
+    deliverycharge = 15;
+    print("Delivery charge is: ". delivery charge)
+elif (distance > 20 and distance <=40):
+    deliverycharge = 25;
+    print("delivery charge is: ", delivery charge)
+else:
+    print("Invalid distance entered.")
+'''

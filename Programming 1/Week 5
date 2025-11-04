@@ -1,0 +1,9 @@
+grade = float(input("please enter your grade"))
+if (grade < 60):
+    print("fail");
+else:
+    print("pass")
+    if(grade < 80):
+        print("good");
+    else:
+        print("excellent")
