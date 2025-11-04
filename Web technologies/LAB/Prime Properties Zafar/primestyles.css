@@ -1,0 +1,71 @@
+body {
+    background-color: #9ACD32;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+}
+ul {
+    font-style: italic;
+}
+a {
+    color: darkgreen;  
+    font-weight: bold; 
+    font-size: 12px;
+}
+
+.container {
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    border: 1px;
+    width: 750px; 
+    margin: auto; 
+    background-color: #ffffcc;
+}
+
+.address {
+    font-weight: bold; 
+    color: red;
+}
+
+.contact {
+        font-weight: bold;
+        font-family: georgia;
+}
+
+.footer {
+    font-style: italic; 
+    font-size: 0.6em; 
+    border-top: 1px; 
+    border-top-style: solid; 
+    border-top-color: darkgreen;
+}
+
+.prime {
+    color: darkgreen; font-weight: bold;
+}
+
+h2{
+    color:#003366; 
+    text-transform: uppercase;
+}
+
+h3{
+    color: #006600; 
+    transform: uppercase;
+}
+
+.propertyImg{
+    margin-right: 30px;
+    margin-top: 5px; 
+    float: left;
+}
+
+table{
+    border-color: darkgreen;
+}
+
+.tablestyle{
+    background-color: #E0E0E0;
+    font-weight: bold;
+    font-style: italic;
+}
