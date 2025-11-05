@@ -1,0 +1,13 @@
+to_do_list = ["Buy groceries", "Clean the house", "Pay the bills"];
+print(to_do_list)
+to_do_list.append("Finish homework")
+print(to_do_list)
+to_do_list.remove("Clean the house")
+print(to_do_list)
+to_do_list.insert(1, "Call the doctor")
+print(to_do_list)
+print(to_do_list.pop())
+to_do_list.pop()
+print(to_do_list)
+to_do_list.pop(0)
+print(to_do_list)
