@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Forms Exercise — Lab 2</title>
+    <link href="main.css" rel="stylesheet">
+  </head>
+  <body>
+    <h2 style="font-size: 4vw;">HTML Forms Exercise</h2>
+
+    <form method="post" action="https://formtester.goodbytes.be/post.php">
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" size="25" id="name" name="name">
+      </p>
+
+      <p>
+        <label for="comments">Comments:</label>
+        <textarea rows="4" cols="36" id="comments" name="comments"></textarea>
+      </p>
+
+      <p>
+        <label for="email">Email Address:</label>
+        <input type="email" size="25" id="email" name="email">
+      </p>
+
+      <fieldset>
+        <legend>How did you get to our site?</legend>
+        <label><input type="radio" name="referrer" value="search"> Search engine</label><br>
+        <label><input type="radio" name="referrer" value="link"> Link from another site</label><br>
+        <label><input type="radio" name="referrer" value="deitel"> deitel.com Web site</label><br>
+        <label><input type="radio" name="referrer" value="book"> Reference in a book</label><br>
+        <label><input type="radio" name="referrer" value="other"> Other</label>
+      </fieldset>
+
+      <p>
+        <input type="submit" value="Send">
+      </p>
+    </form>
+  </body>
+</html>
